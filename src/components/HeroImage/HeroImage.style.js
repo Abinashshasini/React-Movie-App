@@ -9,6 +9,8 @@ export const Wrapper = styled.div`
       100%
     ),
     url('${props.image}'), var(--darkGrey)`};
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+        url(../../../assets/img/hbl/5172658.jpg) no-repeat center center / cover; */
   background-size: 100%, cover;
   background-position: center;
   position: relative;

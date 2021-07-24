@@ -30,12 +30,13 @@ export const Content = styled.div`
   h2 {
     font-size: var(--fontMed);
     margin: 0;
+    text-align: center;
   }
 
-  @media screen and(max-width: 500px) {
+  @media screen and (max-width: 500px) {
     h1,
     h2 {
       font-size: var(--fontSmall);
     }
-  } ;
+  }
 `;
